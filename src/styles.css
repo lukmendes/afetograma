@@ -1,4 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Paleta de cores */
+  --cor-fundo-padrao: #FAF7F2;
+  --cor-rosa-antigo: #F8ECEB;
+  --cor-marrom: #5C504D;
+  --cor-sepia: #B8A79C;
+  --cor-bege: #E2D4C6;
+  --cor-verde: #6B7B5F;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: var(--cor-fundo-padrao);
+  color: var(--cor-marrom);
+}
