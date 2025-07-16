@@ -1,0 +1,28 @@
+.navbar {
+  background-color: var(--cor-fundo-padrao);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.btn-link {
+  color: var(--cor-marrom);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-outline-dark {
+  border: 1px solid var(--cor-marrom);
+  color: var(--cor-marrom);
+}
+
+.btn-dark {
+  background-color: var(--cor-verde);
+  color: #fff;
+  border: none;
+}

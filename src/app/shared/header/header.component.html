@@ -1,1 +1,13 @@
-<p>header works!</p>
+<nav class="navbar px-4 py-3">
+  <div class="d-flex justify-content-between align-items-center w-100">
+    <div class="logo">
+      <img src="../../../assets/image 1 (Traced).svg" alt="Afetograma" height="40px" />
+    </div>
+
+    <div class="nav-links d-flex gap-3 align-items-center">
+      <button class="btn btn-link " (click)="scrollToSobre()">Sobre</button>
+      <button class="btn btn-outline-dark rounded-pill d-none d-md-inline" (click)="irParaLogin(0)">Login</button>
+      <button class="btn btn-dark rounded-pill d-none d-md-inline" (click)="irParaLogin(1)">Criar Conta</button>
+    </div>
+  </div>
+</nav>
